@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Espace de Respiration</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="httpe://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tu peux respirer ici. Prends une pause si t'en as besoin</h1>
+
+        <div id="breath-circle"></div>
+
+        <button id="breathBtn">Respirer ensemble</button>
+
+        <p id="message">Tu es dans un espace calme. Prend ton temps</p>
+        <div class="intro-box">
+            <p>Ici, tout peut être partagé en sécurité.
+Tu peux respirer, ventiler, vider un sentiment.
+C'est anonyme, sans jugement, sans pression.</p>
+        </div> 
+    <div class="description-box">
+    <p>
+        Ce site est un petit refuge.  
+        Un endroit où tu peux déposer quelque chose de vrai,  
+        quelque chose de doux ou de lourd,  
+        quelque chose qui te rend humain.  
+        Rien n'est enregistré ici, sauf ce que tu choisis d'envoyer.  
+        Merci d'exister un instant avec moi dans cet espace-là.
+    </p>
+</div>
+
+
+<a class="sendbtn" href="https://docs.google.com/forms/d/e/1FAIpQLSfrDjAGepBoV-iEsDNJEWJJqGmW_BQQFB4DbW9pk33DdIucGg/viewform?usp=sharing&ouid=118230060502718258476" target="_blank" >
+    partager une émotion
+ </a>
+</div>
+
+<script src="script.js"></script>
+<audio id="ambiance" autoplay loop></audio>
+    <source src="assets/audio/ambiance.wav" type="audio/wav">
+</audio>
+<script>
+    const audio = document.getElementById("ambiance");
+    audio.volume = 0.25;
+ </script>
+</body>
+</html>
